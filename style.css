@@ -6,3 +6,18 @@
   box-sizing: border-box;
   outline: none !important;
 }
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(https://images.pexels.com/photos/371836/pexels-photo-371836.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.shadow {
+  text-shadow: 1px 6px 12px rgba(0,0,0,0.79);
+}
