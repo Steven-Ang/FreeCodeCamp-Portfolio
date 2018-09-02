@@ -7,6 +7,11 @@
   outline: none !important;
 }
 
+#profile-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -16,6 +21,14 @@
   background: url(https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center fixed;
   background-size: cover;
   color: #fff;
+}
+
+#projects {
+  padding: 60px 0;
+}
+
+.card {
+  padding: 0px;
 }
 
 .shadow {
